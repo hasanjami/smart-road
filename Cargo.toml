@@ -1,0 +1,16 @@
+[package]
+name = "smart_road"
+version = "1.0.0"
+edition = "2021"
+description = "Autonomous intersection simulation without traffic lights"
+readme = "README.md"
+publish = false
+
+[dependencies]
+macroquad = "=0.4.14"
+rand = { version = "=0.8.5", features = ["small_rng"] }
+image = "=0.24.9"
+
+[lib]
+name = "smart_road"
+path = "src/lib.rs"

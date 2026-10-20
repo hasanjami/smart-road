@@ -1,0 +1,31 @@
+/target
+**/*.rs.bk
+*.pdb
+*.log
+.DS_Store
+Thumbs.db
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+# Dependencies, generated files and local data
+node_modules/
+.next/
+target/
+dist/
+coverage/
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
